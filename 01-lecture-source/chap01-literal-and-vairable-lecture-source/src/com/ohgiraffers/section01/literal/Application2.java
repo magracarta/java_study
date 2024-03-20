@@ -1,4 +1,5 @@
 package com.ohgiraffers.section01.literal;
+import java.math.BigDecimal;
 
 public class Application2 {
     public static void main(String[] args){
@@ -156,6 +157,23 @@ public class Application2 {
         //System.out.println("a"*true);
         //System.out.println("a"/true);
         //System.out.println("a"%true);
+
+
+        //숫자의 오차를 해결하는 방법 BigDecimal 사용하여 활용
+        //숫자를 문자열로 표현하여 정확한 계산 가능.
+        BigDecimal num1 = new BigDecimal("0.1");
+        BigDecimal num2 = new BigDecimal("0.2");
+        System.out.println(num1.add(num2)); //더하기
+        System.out.println(num2.subtract(num1)); //빼기
+        System.out.println(num1.multiply(num2)); //곱하기
+        System.out.println(num1.divide(num2)); //나누기
+        System.out.println(num1.remainder(num2)); //나누기 후 나머지
+        System.out.println(num1.min(num2)); //두값 중 최솟값
+        System.out.println(num1.max(num2)); //두값 중 최대값
+        System.out.println(new BigDecimal("-1.333").abs()); //절대값
+
+
+
 
     }
 }
