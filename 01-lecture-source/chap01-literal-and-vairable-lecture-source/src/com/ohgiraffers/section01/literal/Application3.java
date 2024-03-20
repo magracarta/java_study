@@ -1,6 +1,7 @@
 package com.ohgiraffers.section01.literal;
 
 public class Application3 {
+
     public static void main(String[] args){
         /* 수업목표 문자열 합치기 결과를 예측하고 사용할 수 있다.
          * 목차 1. 두개의 문자열 합치기

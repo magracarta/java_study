@@ -1,7 +1,5 @@
 package com.ohgiraffers.section01.literal;
 
-import java.awt.*;
-
 public class Application1 {
     public static void main(String[] args){
         //
