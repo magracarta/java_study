@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2b97323-1b8a-4341-a173-a566116bf87c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/variable/Application3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/section02/variable/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/variable/Application2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "Application.Application3.executor": "Run",
     "Application.com.ohgiraffers.section02.variable.Application1.executor": "Run",
     "Application.com.ohgiraffers.section02.variable.Application2.executor": "Run",
+    "Application.com.ohgiraffers.section02.variable.Application3.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,20 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.ohgiraffers.section02.variable.Application2">
-    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.literal.Application1" />
-      <module name="chap01-literal-and-vairable-lecture-source" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.section01.literal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.ohgiraffers.section02.variable.Application3">
     <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.literal.Application2" />
       <module name="chap01-literal-and-vairable-lecture-source" />
@@ -120,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.ohgiraffers.section02.variable.Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section02.variable.Application3" />
+      <module name="chap01-literal-and-vairable-lecture-source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section02.variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.ohgiraffers.section02.variable.Application3" />
         <item itemvalue="Application.com.ohgiraffers.section02.variable.Application2" />
         <item itemvalue="Application.com.ohgiraffers.section02.variable.Application1" />
         <item itemvalue="Application.Application2" />
         <item itemvalue="Application.Application3" />
-        <item itemvalue="Application.Application1" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,7 @@
       <workItem from="1710904867948" duration="99000" />
       <workItem from="1710904994608" duration="417000" />
       <workItem from="1710905421233" duration="186000" />
-      <workItem from="1710905615048" duration="12237000" />
+      <workItem from="1710905615048" duration="15367000" />
     </task>
     <servers />
   </component>
