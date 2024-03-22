@@ -35,6 +35,7 @@ public class Application9 {
         int max2 = cal.maxNumberOf(first,second);
         System.out.println("두수의 최대값은?"+max2);
 
+
     }
 
 }
