@@ -84,5 +84,8 @@ public class Application1 {
         System.out.println(result);
 
 
+        System.out.println(5<<2);
+        System.out.println(Integer.toBinaryString(5<<2));
+
     }
 }
