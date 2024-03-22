@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.method;
 
+import java.math.BigDecimal;
+
 public class Application6 {
     public static void main(String[] args) {
         /* 메소드 리턴값을 이해하고 활용할 수 있다. */
@@ -29,6 +31,18 @@ public class Application6 {
         System.out.println(app6.testMethod());
 
         System.out.println("main 메소드 종료함");
+
+
+
+
+        double fnum1 = 0.1;
+        double fnum2 = 0.2;
+        System.out.println(fnum1 + fnum2);
+
+
+        BigDecimal count1 = new BigDecimal("0.1");
+        BigDecimal count2 = new BigDecimal("0.2");
+        System.out.println(count1.add(count2));
 
     }
 
