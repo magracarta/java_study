@@ -6,7 +6,8 @@ import static com.ohgiraffers.section01.method.Calculator.maxNumberOf;
 public class Application2 {
     public static void main(String[] args) {
         /* 수업 목표. 임포트 대해 이해할수 있다. */
-        /* 임포트란?
+        /*
+        * 임포트란?
         * 서로 다른 패키지에 존재하는 클래스를 사용하는 경우 패키지명을 포함한 풀 글래스 이름을 사용해야한다.
         * 하지만 매번 다른 클래스의 패키지명까지 기술하기에는 버거롭다.
         * 그래서 패키지 명을 샐략하고 사용할 수 있도록 한 구문이 import문이다.
