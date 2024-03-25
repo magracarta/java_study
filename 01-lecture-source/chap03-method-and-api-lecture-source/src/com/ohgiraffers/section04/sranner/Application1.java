@@ -49,6 +49,15 @@ public class Application1 {
 
 
 
+        /* 2-5. 문자형 값 입력받기 */
+        /* charAt(int idex)를 사용한다. */
+        sc.nextLine();
+        System.out.print("아무 문자나 입력해주세요 : ");
+        char ch = sc.nextLine().charAt(0);
+        System.out.println("입력하신 문자는 "+ ch + "입니다.");
+
+        
+
     }
 }
 
