@@ -111,7 +111,6 @@ public class A_for {
         * */
 
         int random = (int) (Math.random() * 6) + 5;
-
         System.out.println("random : " + random);
 
         /* 뭔가 더해서 담기 위해 sum 변수를 0으로 초기화 */
@@ -172,7 +171,7 @@ public class A_for {
         }
 
         System.out.println("1부터 " + random + "까지의 합은 : " + sum);
-
+        /* 반복문을 이용한 개선 */
         int sum1 = 0;
         for (int i=1; i<= random; i++){
             sum1+=i;
@@ -180,4 +179,36 @@ public class A_for {
 
         System.out.println("1부터 " + random + "까지의 합은 : " + sum1);
     }
+
+
+    public void printSimpleGugudan(){
+        /* 수업목표. 무엇을 반복하는지 확인하여 반복문으로 계산할 수 있다. */
+        /*
+        * 키보드로 2~99 사이에 구구단을 입력받아
+        * 2~9사이의 경우 해당 단의 구구단을 출력하고
+        * 그렇지 않은 경우 "반드시 2~9 사이의 양수를 입력해야 합니다." 출력
+        * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("출력할 구구단의 단 수를 입력하세요 : ");
+        int dan = sc.nextInt();
+
+        if(dan >= 2 && dan <= 9){
+            for (int i =1; i<10; i++){
+                System.out.println(dan+"*"+i+"="+dan*i);
+            }
+        }else{
+            System.out.println("반드시 2~9 사이의 양수를 입력해야 합니다.");
+        }
+
+        for(int i =1; i<=9; i++){
+            for(int j=1; j<=9; j++){
+                System.out.print(j+"*"+i+"="+i*j +"\t");
+            }
+            System.out.println("");
+        }
+
+
+    }
+
 }
