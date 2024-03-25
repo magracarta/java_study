@@ -78,6 +78,7 @@ public class C_ifElseIf {
 
 
         System.out.println(name + "학생의 학점은 "+point+"점으로 "+grade+"입니다.");
+        System.out.println("프로그램을 종료합니다.");
 
     }
 

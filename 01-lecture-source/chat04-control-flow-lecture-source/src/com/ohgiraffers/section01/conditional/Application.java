@@ -21,7 +21,10 @@ public class Application {
 
         C_ifElseIf c = new C_ifElseIf();
         //c.testSimpleIfElseIfStstement();
-        c.testNestedTfElseIfStatment();
+        //c.testNestedTfElseIfStatment();
+        D_switch d = new D_switch();
+        //d.testSimpleStateMentSwitch();
+        d.testSwitchVendingMachine();
     }
 
 }
