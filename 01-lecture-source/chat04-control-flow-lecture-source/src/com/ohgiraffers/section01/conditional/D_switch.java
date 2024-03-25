@@ -3,7 +3,7 @@ package com.ohgiraffers.section01.conditional;
 import java.util.Scanner;
 
 public class D_switch {
-    public void testSimpleStateMentSwitch(){
+    public void testSimpleStateMentSwitch() {
         /* 수업목표. switch문 단독 사용에 대한 흐름을 이해하고 적용할 수 있다. */
         /* [switch문 표현식]{
          * case 비교값1 : 비교값1과 일치할 경우 싱핼할 구문; break;
@@ -25,9 +25,9 @@ public class D_switch {
 
 
         /*
-        * 정수 두 개와 연산 기호 문자를 입력 받아서
-        * 두 숫자의 연산 결과를 출력해보는 간단한 계산기 만들기.
-        * */
+         * 정수 두 개와 연산 기호 문자를 입력 받아서
+         * 두 숫자의 연산 결과를 출력해보는 간단한 계산기 만들기.
+         * */
 
         /* 정수 두 개와 연산 기호 입력 */
         Scanner sc = new Scanner(System.in);
@@ -41,21 +41,21 @@ public class D_switch {
 
         int result = 0;
 
-        switch (op){
-            case '+' :
+        switch (op) {
+            case '+':
                 result = fnum + snum;
                 break;
-            case '-' :
+            case '-':
                 result = fnum - snum;
                 break;
-            case '/' :
-                result = fnum/snum;
+            case '/':
+                result = fnum / snum;
                 break;
-            case '*' :
-                result = fnum*snum;
+            case '*':
+                result = fnum * snum;
                 break;
-            case '%' :
-                result = fnum%snum;
+            case '%':
+                result = fnum % snum;
                 break;
 
             default:
@@ -63,17 +63,17 @@ public class D_switch {
                 break;
         }
 
-        System.out.println(fnum+""+op+""+snum+"="+result);
+        System.out.println(fnum + "" + op + "" + snum + "=" + result);
     }
 
 
-    public   void testSwitchVendingMachine(){
+    public void testSwitchVendingMachine() {
         /* 수업목표. switch문 내에 break문에 대해 흐름을 이해하고 적용할 수 있다. */
         /* switch문을 이용하여 문자열 값 비교 및, break문 테스트 */
         /*
-        * 1. JDK 1.7 이상부터 switch 문을 사용하여 문자열을 비교할 수 있다.
-        * 2. break 를 사용하지 않으면 실행구문을 계속 동작시킴.
-        *  */
+         * 1. JDK 1.7 이상부터 switch 문을 사용하여 문자열을 비교할 수 있다.
+         * 2. break 를 사용하지 않으면 실행구문을 계속 동작시킴.
+         *  */
 
 
         /* switch 문을 이용한 간단한 자판기 */
@@ -90,20 +90,20 @@ public class D_switch {
         int price = 0;
 
 
-        switch(selectedDrink) {
-            case "사이다" :
+        switch (selectedDrink) {
+            case "사이다":
                 System.out.println("사이다를 선택하셨습니다.");
                 price = 500;
-            case "콜라" :
+            case "콜라":
                 System.out.println("콜라를 선택하셨습니다.");
                 price = 600;
-            case "환타" :
+            case "환타":
                 System.out.println("환타를 선택하셨습니다.");
                 price = 700;
-            case "바카스" :
+            case "바카스":
                 System.out.println("바카스를 선택하셨습니다.");
                 price = 2000;
-            case "핫식스" :
+            case "핫식스":
                 System.out.println("핫식스를 선택하셨습니다.");
                 price = 10000;
         }
@@ -111,24 +111,24 @@ public class D_switch {
         System.out.println(price + "원을 투입해주세요!");
         System.out.println("------------------- 개선된 자판기 --------------------");
         String order = "";
-        switch(selectedDrink) {
-            case "사이다" :
+        switch (selectedDrink) {
+            case "사이다":
                 order = "사이다";
                 price = 500;
                 break;
-            case "콜라" :
+            case "콜라":
                 order = "콜라";
                 price = 600;
                 break;
-            case "환타" :
+            case "환타":
                 order = "환타";
                 price = 700;
                 break;
-            case "바카스" :
+            case "바카스":
                 order = "바카스";
                 price = 2000;
                 break;
-            case "핫식스" :
+            case "핫식스":
                 order = "핫식스";
                 price = 10000;
                 break;
