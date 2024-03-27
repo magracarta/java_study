@@ -74,6 +74,8 @@ public class Application3 {
         print(copyTest2);
         print(copyTest3);
         /* 테스트 해보기 */
+
+
     }
 
     public static void print(int[] iarr) {
