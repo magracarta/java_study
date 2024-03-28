@@ -108,6 +108,7 @@ public class Testtest {
         int j;
         int temp;
 
+        /*
         for(int  i = 1; i < ar.length; i++){
             temp = ar[i];
             for(j = i-1; j >=0 && ar[j] > temp; j-- ){
@@ -115,7 +116,18 @@ public class Testtest {
             }
             ar[j+1] = temp;
 
+
+            for (int x : ar){
+                System.out.print(x + " ");
+            }
+
+            System.out.println();
         }
+
+
+         */
+
+
 
 
 
