@@ -4,7 +4,7 @@ public class User {
     private String id;
     private String pwd;
     private String name;
-    private java.util.Date enrollDate; //날짜가 나오는 함수
+    private java.util.Date enrollDate ; //날짜가 나오는 함수
 
     /*
     * 생성자의 작성 위치
@@ -29,16 +29,54 @@ public class User {
      *  }
      * */
 
-    public User(String id, String pwd, String name ){
+
+    /*
+     * 생성자 작성 시 주의할 점
+     * 1. 생성자 메소드는 반드시 클래스 이름과 동일해야 한다. 대/소문자까지 같아야한다.
+     * 2. 생성자 메소드는 반환형을 작성하지 않는다. (작성하는 경우 메소드로 인식한다.)
+     * */
+
+    /* 1. 기본생성자(default contructor) */
+    public User(){
+        /*
+        * 수행할 내용이 아무것도 존재하지 않는다.
+        * 호출 확인을 위한 출력구문만 작성해보자.
+        * 메소드와 같이 수행할 명령들을 작성할 수 있다.
+        * */
+
+        System.out.println("기본 생성자 호출함...");
+
+    }
+    /* 주의사항. 동일한 이름의 생성자 혹은 메소드를
+     한 클래스안에서 작성하는 것은 불가능하다. (컴파일에서) */
+    //public User(){}
+
+    /* 2. 매개변수 있는 생성자 */
+    /* id,  pwd, name의 초기화를 담당할 생성자 */
+    public User(String id , String pwd, String name){
+        this.id = id;
+        this.name = name;
+        this.pwd = pwd;
+        System.out.println("id, pwd, name을 초기화하는 생성자 호출됨...");
+    }
+    public User(String id){
+       // 오버로딩 : 값이 변경될 때 덮어씌우기 가능
+        this.id = id;
+    }
+    public User(String id , String pwd){
+        // 오버로딩 : 값이 변경될 때 덮어씌우기 가능
         this.id = id;
         this.pwd = pwd;
-        this.name = name;
-    }
-
-    public void printUser(){
-        System.out.println("id은 "+ this.id + "이고 비밀번호는 "+this.pwd+"이고 이름은 "+this.name +"입니다. ");
     }
 
 
 
+    public String getInfrmation() {
+        return "User{" +
+                "id='" + this.id + '\'' +
+                ", pwd='" + this.pwd + '\'' +
+                ", name='" + this.name + '\'' +
+                ", enrollDate=" + this.enrollDate +
+                '}';
+    }
 }
