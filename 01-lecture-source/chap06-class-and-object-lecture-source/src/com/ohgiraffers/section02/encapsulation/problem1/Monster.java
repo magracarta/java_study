@@ -19,6 +19,7 @@ public class Monster {
 
     boolean live;
     String liveText;
+    int newxLevelXp;
 
     public void setHp(int hp){
                         // 지역변수
@@ -39,11 +40,15 @@ public class Monster {
 
     public void setLive(boolean live){
         this.live = live;
+        this.newxLevelXp = newxLevelXp;
+        this.hp = hp;
         this.liveText = new String();
         if(live ==true ){
-            liveText="살아있다.";
+            this.liveText="살아있다.";
+            this.newxLevelXp = 300+hp;
         }else{
-            liveText="죽었다.";
+            this.liveText="죽었다.";
+            this.newxLevelXp = 300-hp;
         }
     }
 }

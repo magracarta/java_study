@@ -10,6 +10,4 @@ public class Monster {
     String kinds;
     int hp;
 
-
-
 }

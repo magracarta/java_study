@@ -35,15 +35,13 @@ public class Application {
         monster4.setHp(-200);
         monster4.live = true;
         monster4.setLive(monster4.live);
-        
 
 
         System.out.println("monster4.name = " + monster4.name);
         System.out.println("monster4.hp = " + monster4.hp);
         System.out.println("monster4.live = " + monster4.live);
         System.out.println("monster4.liveText = " + monster4.liveText);
-
-
+        System.out.println("monster4.newxLevelXp = " + monster4.newxLevelXp);
 
 
     }
