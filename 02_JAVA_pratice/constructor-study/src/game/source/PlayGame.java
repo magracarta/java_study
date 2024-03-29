@@ -35,37 +35,50 @@ public class PlayGame {
 
        Charactor charactor = new Charactor(name, job);
        System.out.println(charactor.charactorInfo());
-       this.commonGamePlayFn(charactor);
+        Monster monster = new Monster();
+       this.commonGamePlayFn(charactor ,monster);
+
+
     }
 
-    public void commonGamePlayFn(Charactor charactor ){
+    public void commonGamePlayFn(Charactor charactor , Monster monster){
         System.out.println("모험을 떠나시겠습니까? yes/no");
         this.sc.nextLine();
         String answer = this.sc.nextLine();
         if(answer.equals("yes")){
-            monsterViewFn(charactor);
+            monsterViewFn(charactor, monster);
         }else{
             this.endGame();
         }
 
     }
 
-    public void monsterViewFn(Charactor charactor){
+    public void monsterViewFn(Charactor charactor , Monster monster){
         System.out.println("몬스터를 마주쳤습니다.");
         boolean meetMonster = true;
         int chattackCounter = charactor.getAttackCount();//캐릭터 공격력 가져오기
         int monattackCounter = 20;
 
+        monster.remonstervalue();
+        monster.monsterAppear();
 
         while (meetMonster){
-           System.out.println("어떻게 하시겠습니까? 1. 공격한다. 2.도망간다.");
+           System.out.println("1. 공격한다. 2.도망간다.");
            int answer1 = this.sc.nextInt();
            if(answer1 ==1){ //공격
+               System.out.println("공격하였습니다.");
+               //공격하기
+               monster.setAttCnt(charactor.getAttackCount());
+               monster.attackMonster();
+               
+               //공격당하기
 
+               //몬스터가 죽었다.
 
+               // 내가 죽었다.
 
            }else { // 안공격
-               commonGamePlayFn(charactor);
+               commonGamePlayFn(charactor , monster);
                break;
            }
 
