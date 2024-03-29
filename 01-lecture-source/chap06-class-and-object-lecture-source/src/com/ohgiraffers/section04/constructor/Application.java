@@ -1,4 +1,4 @@
-package com.ohgiraffers.section4.constructor;
+package com.ohgiraffers.section04.constructor;
 
 public class Application {
     public static void main(String[] args) {

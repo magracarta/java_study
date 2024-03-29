@@ -1,4 +1,4 @@
-package com.ohgiraffers.section3.abstraction;
+package com.ohgiraffers.section03.abstraction;
 
 public class Car {
     private boolean isOn; //초기에는 시동이 꺼진 false 상태이다.

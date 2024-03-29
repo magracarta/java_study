@@ -1,4 +1,4 @@
-package com.ohgiraffers.section4.dto;
+package com.ohgiraffers.section04.dto;
 
 public class Application {
     public static void main(String[] args) {

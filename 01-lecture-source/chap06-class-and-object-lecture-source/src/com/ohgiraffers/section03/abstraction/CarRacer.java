@@ -1,4 +1,4 @@
-package com.ohgiraffers.section3.abstraction;
+package com.ohgiraffers.section03.abstraction;
 
 public class CarRacer {
     private Car car = new Car();
