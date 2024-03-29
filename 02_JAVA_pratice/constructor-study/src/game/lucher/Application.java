@@ -1,5 +1,6 @@
 package game.lucher;
 
+import game.source.Charactor;
 import game.source.PlayGame;
 
 import java.util.Scanner;

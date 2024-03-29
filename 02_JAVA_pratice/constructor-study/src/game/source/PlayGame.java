@@ -6,6 +6,7 @@ public class PlayGame {
 
     private Scanner sc = new Scanner(System.in);
 
+
     private boolean startGame;
 
     public PlayGame(){
@@ -34,22 +35,42 @@ public class PlayGame {
 
        Charactor charactor = new Charactor(name, job);
        System.out.println(charactor.charactorInfo());
-       this.commonGamePlayFn();
+       this.commonGamePlayFn(charactor);
     }
 
-    public void commonGamePlayFn(){
-        System.out.println("모험을 떠나시겠습니까? y/n");
-        String anwer = this.sc.nextLine();
-        if(anwer == "y"){
-
+    public void commonGamePlayFn(Charactor charactor ){
+        System.out.println("모험을 떠나시겠습니까? yes/no");
+        this.sc.nextLine();
+        String answer = this.sc.nextLine();
+        if(answer.equals("yes")){
+            monsterViewFn(charactor);
         }else{
             this.endGame();
         }
 
     }
 
-    public void monsterViewFn(){
+    public void monsterViewFn(Charactor charactor){
         System.out.println("몬스터를 마주쳤습니다.");
+        boolean meetMonster = true;
+        int chattackCounter = charactor.getAttackCount();//캐릭터 공격력 가져오기
+        int monattackCounter = 20;
+
+
+        while (meetMonster){
+           System.out.println("어떻게 하시겠습니까? 1. 공격한다. 2.도망간다.");
+           int answer1 = this.sc.nextInt();
+           if(answer1 ==1){ //공격
+
+
+
+           }else { // 안공격
+               commonGamePlayFn(charactor);
+               break;
+           }
+
+        }
+
     }
 
 

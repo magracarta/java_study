@@ -124,11 +124,7 @@ public class Testtest {
             System.out.println();
         }
 
-
          */
-
-
-
 
 
         for (int x : ar){
@@ -136,7 +132,6 @@ public class Testtest {
         }
 
         System.out.println();
-
 
 
     }

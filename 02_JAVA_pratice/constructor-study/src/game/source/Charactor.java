@@ -15,6 +15,9 @@ public class Charactor {
     private boolean isAlive = true;
 
 
+    public int getAttackCount(){
+        return attackCount;
+    }
 
     public Charactor() {  }
     public Charactor(String name, int job) {
