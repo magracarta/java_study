@@ -21,6 +21,7 @@ public class Test {
     public Test(){
 
     }
+
     public Test(String name, int price, String brand){
         this.name = name;
         this.price = price;
