@@ -35,7 +35,7 @@ public class DynamicBeat extends JFrame {
         
     }
 
-     public void paint(Graphics g ){
+     public void paint(Graphics g ){ //paint 이미지 실행을 하는 약속된 함수
         screenImage = createImage(Main.SCREEN_WIDTH, Main.SCREEN_HEIGHT);
         screenGrapic = screenImage.getGraphics();
         screenDraw(screenGrapic);
