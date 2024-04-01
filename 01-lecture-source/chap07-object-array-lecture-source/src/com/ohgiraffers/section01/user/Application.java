@@ -36,10 +36,10 @@ public class Application {
 
             switch (no){
                 case 1:
-
+                    memverService.signUpMember();
                     break;
                 case 2:
-
+                    memverService.showAllMember();
                     break;
                 case 9:
                     System.out.println("프로그램을 종료합니다.");
