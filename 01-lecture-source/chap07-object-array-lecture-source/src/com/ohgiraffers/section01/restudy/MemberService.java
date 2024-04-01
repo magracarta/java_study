@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.restudy;
 
+import java.util.Arrays;
+
 public class MemberService {
 
     public void signUpMember(){
@@ -13,7 +15,6 @@ public class MemberService {
 
         MemberRegister memberRegister = new MemberRegister();
         memberRegister.register(mebers);
-
 
     }
     public void showAllMember(){
