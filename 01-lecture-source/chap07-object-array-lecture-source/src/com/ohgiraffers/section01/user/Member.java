@@ -72,6 +72,6 @@ public class Member {
 
     public String getInformation(){
         return "Member[ num="+num+", id="+id+" , pwd="+ pwd+" , name="+ name+" ,age="+age
-                +" , gender="+gender+"]";
+                +" , gender="+gender+"] ";
     }
 }
