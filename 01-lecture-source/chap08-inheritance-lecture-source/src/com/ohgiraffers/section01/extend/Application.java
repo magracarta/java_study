@@ -67,8 +67,30 @@ public class Application {
         * 서로 다를수 있다.
         * */
 
+        Car car = new Car();
+        car.soundHorn();
+        car.run();
+        car.soundHorn();
+        car.stop();
+        car.soundHorn();
+        System.out.println("---------------------------------");
 
-        
+        FireCar fireCar = new FireCar();
+        fireCar.soundHorn();
+        fireCar.run();
+        fireCar.soundHorn();
+        fireCar.stop();
+        fireCar.soundHorn();
+
+        fireCar.sprayWater();
+
+        RacingCar rccar  = new RacingCar();
+        rccar.soundHorn();
+        rccar.run();
+        rccar.soundHorn();
+        rccar.stop();
+        rccar.soundHorn();
+
 
     }
 }
