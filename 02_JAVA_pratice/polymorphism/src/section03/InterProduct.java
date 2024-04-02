@@ -14,10 +14,5 @@ public interface InterProduct {
     //리턴값을 가지는 함수는 절대불가
     public  void test1();
 
-    public static void test2(){
-        System.out.println("신기하게도 static 메소드는 작성가능");
-    }
-    public default void test3(){
-        System.out.println("신기하게도 default 메소드도 작성가능!");
-    }
+
 }
