@@ -72,7 +72,46 @@ public class Application1 {
         //a1.jump(); //안됨
         //a2.bite(); //안됨
         /* 상속받아 변형한 메소드는 작동 가능 하지만
-         부모의 기능이 아닌 자식의 고유의 기능은 작동하지 않는 다. */
+         부모의 기능이 아닌 자식의 고유의 기능은 작동하지 않는다. */
+
+        /* 레퍼런스 변수?  */
+        /* 7. 타입형변환 */
+        System.out.println("==============타입 형변환 확인==============");
+        ((Rabbit)a1).jump();
+        ((Tiger)a2).bite();
+        //((Tiger)a1).bite();
+        // 선언한것과 다른 타입을 형변환 하여도 오류는 나지 않지만 메소드 사용불가.
+
+        /* 8. instanceof 연산자 사용 확인 */
+        System.out.println("==================instanceof================");
+        System.out.println("a1이 Tiger 타입인지 확인 : " + (a1 instanceof Tiger));
+        System.out.println("a1이 Rabbit 타입인지 확인 : " + (a1 instanceof Rabbit));
+        System.out.println("a1이 Animal 타입인지 확인 : " + (a1 instanceof Animal));
+        System.out.println("a1이 Object 타입인지 확인 : " + (a1 instanceof Object));
+
+        if(a1 instanceof Rabbit){
+            ((Rabbit)a1).jump();
+        }
+
+        if(a1 instanceof Tiger){
+            ((Tiger)a1).bite();
+        }
+
+        /* 9. 클래스와 업캐스팅 다운캐스팅 */
+        /*
+        * 클래스 형변환은 up-casting 과 down-casting으로 구분할 수 있다.
+        * up-casting : 상위 타입으로의 형변환
+        * down-casting : 하위 타입으로의 형변환
+        * 또한 작성 여부따라 명시적과 목시적 두 가지로 구분한다.
+        * */
+        /* 배열에 쓸때 좋다. */
+
+        Animal animal1 = new Rabbit(); //up-casting 목시적 형변환
+        Animal animal2 = (Animal) new Rabbit(); //up-casting 명시적 형변환
+
+        Rabbit rabbit1 = (Rabbit) animal1; //down-casting 명시적 형변환
+        //Rabbit rabbit2 = animal2; //down-casting은 목시적 형변환이 안 됨.
+
 
     }
 }
