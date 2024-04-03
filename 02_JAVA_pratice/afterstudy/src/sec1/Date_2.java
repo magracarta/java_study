@@ -7,5 +7,7 @@ public class Date_2 {
         Calendar calendar = Calendar.getInstance();
         System.out.println("calendar = " + calendar);
         System.out.println("calendar = " + calendar.getTime());
+
+
     }
 }

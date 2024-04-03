@@ -18,6 +18,7 @@ public class Application4 {
 		ZonedDateTime now = ZonedDateTime.now();
 		
 		System.out.println(localDate.isAfter(past));
+		System.out.println(localDateTime.isAfter(future));
 		System.out.println(localDateTime.isBefore(future));
 		System.out.println(zonedDateTime.isEqual(now));
 	}
