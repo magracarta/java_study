@@ -1,4 +1,4 @@
-package com.ohgiraffers.section02.stringbuilder;
+package com.ohgiraffers.section03.stringbuilder;
 
 public class Application1 {
     public static void main(String[] args) {
@@ -47,6 +47,8 @@ public class Application1 {
         sb.append("Oracle");
         System.out.println("sb = "+ sb);
         System.out.println("sh.hashCode() 오라클 붙여준 후 = "+ sb.hashCode());
+
+
 
 
     }

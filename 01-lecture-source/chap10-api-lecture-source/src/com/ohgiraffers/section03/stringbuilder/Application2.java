@@ -1,4 +1,8 @@
-package com.ohgiraffers.section02.stringbuilder;
+package com.ohgiraffers.section03.stringbuilder;
+
+import java.util.Locale;
+
+import static java.lang.String.valueOf;
 
 public class Application2 {
     public static void main(String[] args) {
@@ -53,6 +57,30 @@ public class Application2 {
         * String 클래스와 동일한 메소드도 있다.
         * charAt(), indexOf()/lastIndexOf(), length(), replace(), substring(), toString()
         * */
+
+        StringBuilder testsb = new StringBuilder();
+        testsb.append("tesTtTBuiTTldt");
+
+
+        //t 만 모두 제거 대문자 소문자
+        System.out.println( testsb);
+
+//        while (testsb.indexOf("t") >= 0 || testsb.indexOf("T") >= 0){
+//          if(testsb.indexOf("t") >= 0){
+//              testsb.deleteCharAt(testsb.indexOf("t"));
+//          }else if(testsb.indexOf("T") >= 0){
+//              testsb.deleteCharAt(testsb.indexOf("T"));
+//          }
+//            System.out.println("testsb = " + testsb);
+//        }
+
+        for(int i = 0; i < testsb.length(); i++){
+            String alpabet = valueOf(testsb.charAt(i));
+            if(alpabet.equals(alpabet.toUpperCase()) ){
+                testsb.deleteCharAt(i);
+            }
+        }
+        System.out.println("testsb = " + testsb);
 
     }
 }
