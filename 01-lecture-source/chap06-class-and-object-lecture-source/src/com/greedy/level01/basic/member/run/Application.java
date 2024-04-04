@@ -34,5 +34,6 @@ public class Application {
         System.out.println("변경 후 Phone : "+ member.getPhone());
         System.out.println("변경 후 email : "+ member.getEmail());
 
+        
     }
 }
