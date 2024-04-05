@@ -33,6 +33,12 @@ public class MusicMenu {
                 case 3 :
                     acsdcsSort();
                     break;
+                case 4 :
+                    artistSelect();
+                    break;
+                case 5 :
+                    titleSelect();
+                    break;
                 case 0 :
                     System.out.println("시스템을 종료합니다.");
                     break mainMenu;
@@ -92,6 +98,39 @@ public class MusicMenu {
         for(int i =0; i < sorList.size(); i++){
             System.out.println(sorList.get(i));
         }
+    }
+
+    //가수명으로 노래조회
+    public void artistSelect(){
+        System.out.println("가수명으로 검색=============");
+        System.out.println("가수 이름을 적어주세요 : ");
+        String artist = sc.nextLine();
+        List <MusicDto> selectList = musicManager.aritstList(artist);
+
+        for(MusicDto music : selectList){
+            System.out.println(music);
+        }
+
+    }
+
+    //곡명으로 노래조회
+    public void titleSelect(){
+        System.out.println("==== 곡명으로 검색");
+        System.out.println("곡명을 적어주세요");
+        String title = sc.nextLine();
+        List <MusicDto> titleList = musicManager.titleList(title);
+        for(MusicDto x : titleList){
+            System.out.println(x);
+        }
+    }
+    
+    //곡정보 수정
+    public void updateMusic(){
+        System.out.println("곡 수정하기");
+        System.out.println("ID 값을 적어주세요");
+        int id = sc.nextInt();
+
+
     }
 
 }
