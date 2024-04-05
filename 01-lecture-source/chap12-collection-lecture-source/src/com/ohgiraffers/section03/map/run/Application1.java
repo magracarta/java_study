@@ -1,4 +1,4 @@
-package com.ohgiraffers.section3.map.run;
+package com.ohgiraffers.section03.map.run;
 
 import java.util.*;
 
