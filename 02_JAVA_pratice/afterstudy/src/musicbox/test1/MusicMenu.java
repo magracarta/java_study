@@ -39,9 +39,13 @@ public class MusicMenu {
                 case 5 :
                     titleSelect();
                     break;
+                case 6 :
+                    updateMusic();
+                    break ;
                 case 0 :
                     System.out.println("시스템을 종료합니다.");
                     break mainMenu;
+
             }
 
         }
@@ -130,6 +134,19 @@ public class MusicMenu {
         System.out.println("ID 값을 적어주세요");
         int id = sc.nextInt();
 
+        sc.nextLine();
+        System.out.println("수정할 가수명을 적어주세요.");
+        String artist = sc.nextLine();
+        System.out.println("수정할 타이틀을 적어주세요.");
+        String title = sc.nextLine();
+
+        if(musicManager.musicUpdate(id,artist, title)){
+            System.out.println("수정이 완료되었습니다!");
+        }else{
+            System.out.println("수정할 곡을 찾지 못했습니다.");
+
+
+        }
 
     }
 

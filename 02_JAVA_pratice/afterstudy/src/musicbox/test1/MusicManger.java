@@ -40,6 +40,23 @@ public class MusicManger {
         return tilteList;
     }
 
+    //id값으로 곡 수정
+    public Boolean musicUpdate(int id , String artist, String title){
+
+        MusicDto old = null;
+        MusicDto music = new MusicDto(id, artist, title);
+
+        for(int i = 0; i < musicList.size(); i++){
+            if(musicList.get(i).getId() == id){
+                old = musicList.set(i, music);
+            }
+        }
+
+     System.out.println(music);
+
+        return old != null;
+    }
+
 
 
 }
