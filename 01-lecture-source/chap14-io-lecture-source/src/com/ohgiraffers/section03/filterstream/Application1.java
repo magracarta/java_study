@@ -1,9 +1,7 @@
 package com.ohgiraffers.section03.filterstream;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
+import java.util.Scanner;
 
 public class Application1 {
     public static void main(String[] args) {
@@ -17,6 +15,7 @@ public class Application1 {
         BufferedWriter bw = null;
 
         try {
+
             bw = new BufferedWriter(new FileWriter("src/com/ohgiraffers/section03/filterstream/testBuffered.tst"));
             bw.write("안녕하세요. \n");
             bw.write("안녕하세요. 반갑습니다. \n");
@@ -34,6 +33,25 @@ public class Application1 {
                 }
             }
         }
+
+        BufferedWriter bw2 = null;
+        try{
+            bw2 = new BufferedWriter(new FileWriter("src/com/ohgiraffers/section03/filterstream/testBuffered.tst2"));
+            Scanner sc = new Scanner(System.in);
+            bw2.write(sc.nextLine());
+        }catch (IOException e){
+            e.printStackTrace();
+        }finally {
+            if(bw2 != null){
+                try {
+                    bw2.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        }
+
+
 
     }
 }
