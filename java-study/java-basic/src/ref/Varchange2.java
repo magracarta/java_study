@@ -22,5 +22,6 @@ public class Varchange2 {
         System.out.println(dataA.value);
         System.out.println(dataB.value);
 
+
     }
 }
