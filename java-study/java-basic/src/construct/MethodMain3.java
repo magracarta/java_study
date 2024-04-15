@@ -15,10 +15,5 @@ public class MethodMain3 {
         for(Memberinit member: members){
             System.out.println("이름 : " + member.name + " 나이 : " + member.age + " 점수 : " + member.grade );
         }
-
-
     }
-
-
-
 }
