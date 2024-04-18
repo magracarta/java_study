@@ -4,6 +4,12 @@ public class MemberConstruct {
     String name;
     int age;
     int grade;
+    //추가
+    MemberConstruct(String name, int age){
+        this(name,age,50); //변경
+        //생성자 코드의 첫줄에서만 작성할 수 있다.
+
+    }
 
     MemberConstruct(String name, int age, int grade){
         System.out.println("생성자 호출 name = "+ name + " age= " +age + " grade= "+grade) ;
@@ -11,4 +17,6 @@ public class MemberConstruct {
         this.age = age;
         this.grade = grade;
     }
+
+
 }
