@@ -2,6 +2,7 @@ package access.b;
 
 import access.a.AccessData;
 
+//퍼블릭 클래스는 반드시 파일명과 같아야한다.
 public class AccessOuterMain {
     public static void main(String[] args) {
         AccessData data = new AccessData();
