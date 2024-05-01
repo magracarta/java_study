@@ -27,4 +27,11 @@ public class Rectangle {
         return width == rectangle.width && height == rectangle.height;
     }
 
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
 }
