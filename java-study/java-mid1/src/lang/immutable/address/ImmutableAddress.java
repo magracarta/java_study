@@ -1,9 +1,9 @@
 package lang.immutable.address;
 
-public class Adress {
-    private String value;
+public class ImmutableAddress {
+    private final String value;
 
-    public Adress(String value) {
+    public ImmutableAddress(String value) {
         this.value = value;
     }
 
@@ -11,9 +11,6 @@ public class Adress {
         return value;
     }
 
-    public void setValue(String value) {
-        this.value = value;
-    }
 
     @Override
     public String toString() {
