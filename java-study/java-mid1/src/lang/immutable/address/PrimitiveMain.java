@@ -8,10 +8,11 @@ public class PrimitiveMain {
         System.out.println("a  = " + a);
         System.out.println("b  = " + b);
 
-
+        System.out.println("a  = b " + (a == b));
         b=20;
         System.out.println("20 -> b");
         System.out.println("a  = " + a);
         System.out.println("b  = " + b);
+        System.out.println("a  = b " + (a == b));
     }
 }
