@@ -1,0 +1,12 @@
+package enumeraion.test.ex1;
+
+public class AuthGradeMain1 {
+    public static void main(String[] args) {
+        AuthGrade [] authGrades = AuthGrade.values();
+        for (AuthGrade value : authGrades){
+            System.out.println("grade = "+value.name() + ", level = " + value.getLevel()
+            +"설명 = " + value.getDescription()
+            );
+        }
+    }
+}
