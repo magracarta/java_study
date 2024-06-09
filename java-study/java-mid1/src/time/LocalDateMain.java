@@ -2,7 +2,7 @@ package time;
 
 import java.time.LocalDate;
 
-public class LocaldateMain {
+public class LocalDateMain {
     public static void main(String[] args) {
         LocalDate nowDate = LocalDate.now();
         LocalDate ofDate = LocalDate.of(2013,3,28);
