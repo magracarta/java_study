@@ -14,6 +14,10 @@ public class FormattingMain1 {
         String foramteDate = date.format(formatter);
         System.out.println("날짜와 시간 포멧팅"+foramteDate);
 
+        DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("yy년 MM월 dd일");
+        String foramteDate2 = date.format(formatter2);
+
+        System.out.println(foramteDate2);
 
         //파싱 : 문자를 날짜로
         String input = "2030년 01월 01일";
