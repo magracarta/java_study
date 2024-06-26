@@ -1,15 +1,12 @@
-package exeption.ex2;
-
+package exeption.ex3;
 
 import java.util.Scanner;
 
-public class MainV2 {
+public class MainV3 {
     public static void main(String[] args){
-        //NetworkServiceV0_1 networkSerivce = new NetworkServiceV0_1();
-        //NetworkServiceV2_1 networkSerivce = new NetworkServiceV2_1();
-        //NetworkServiceV2_2 networkSerivce = new NetworkServiceV2_2();
-       // NetworkServiceV2_4 networkSerivce = new NetworkServiceV2_4();
-        NetworkServiceV2_5 networkSerivce = new NetworkServiceV2_5();
+
+        //NetworkServiceV3_1 networkSerivce = new NetworkServiceV3_1();
+        NetworkServiceV3_2 networkSerivce = new NetworkServiceV3_2();
 
         Scanner sc = new Scanner(System.in);
         while(true){
