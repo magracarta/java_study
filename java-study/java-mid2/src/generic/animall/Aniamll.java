@@ -2,19 +2,19 @@ package generic.animall;
 
 public class Aniamll {
     private String name;
-    private int age;
+    private int size;
 
-    public Aniamll(String name, int age) {
+    public Aniamll(String name, int size) {
         this.name = name;
-        this.age = age;
+        this.size = size;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getAge() {
-        return age;
+    public int getSize() {
+        return size;
     }
 
     public void sound(){
@@ -24,8 +24,8 @@ public class Aniamll {
     @Override
     public String toString() {
         return "Aniamll{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
+                "size='" + name + '\'' +
+                ", age=" + size +
                 '}';
     }
 }

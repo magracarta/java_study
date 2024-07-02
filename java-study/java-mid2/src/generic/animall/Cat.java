@@ -2,8 +2,8 @@ package generic.animall;
 
 public class Cat extends Aniamll {
 
-    public Cat(String name, int age) {
-        super(name, age);
+    public Cat(String name, int size) {
+        super(name, size);
     }
 
     @Override
