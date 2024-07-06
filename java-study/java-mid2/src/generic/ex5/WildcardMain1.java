@@ -1,4 +1,4 @@
-package generic.test.ex5;
+package generic.ex5;
 
 import generic.animall.Aniamll;
 import generic.animall.Cat;
@@ -18,10 +18,20 @@ public class WildcardMain1 {
         WildcardEx.printGenericV2(dogBox);
 
         WildcardEx.printWildCardV1(dogBox);
-        WildcardEx.printWildCardV2(dogBox);
+        WildcardEx.printWildCardV2(catBox);
+
+
+        Cat cat = WildcardEx.printAndReturnGenericV3(catBox);
+
+        Dog dog = WildcardEx.printAndReturnGenericV3(dogBox);
+
+
+
 
         Aniamll animal = WildcardEx.printAndReturnWildV3(dogBox);
 
-        Cat cat = WildcardEx.<Cat>printAndReturnGenericV3(catBox);
+        //Dog dog1 = WildcardEx.printAndReturnWildV3(dogBox);//오류 발생
+
+
     }
 }
