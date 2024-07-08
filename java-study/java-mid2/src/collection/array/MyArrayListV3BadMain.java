@@ -10,5 +10,11 @@ public class MyArrayListV3BadMain {
         numberList.add("문자3");
 
         System.out.println(numberList);
+
+        // Object를 반환하므로 다운 캐스팅 필요
+        Integer num1 = (Integer) numberList.get(0);
+        Integer num2 = (Integer) numberList.get(1);
+       // .ClassCastException 발생 , 문자를 Integer로 캐스팅
+        // Integer num3 = (Integer) numberList.get(2);
     }
 }
