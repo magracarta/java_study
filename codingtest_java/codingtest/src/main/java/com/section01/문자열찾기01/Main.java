@@ -1,4 +1,4 @@
-package com.section01.test1_FindLetter;
+package com.section01.문자열찾기01;
 
 import java.util.Scanner;
 
