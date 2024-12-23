@@ -15,6 +15,9 @@ public class Main {
             }
             str = str.substring(pos + 1);
         }
+        if(str.length() > answer.length()){
+            answer = str;
+        }
         //String [] list = str.split(" ");
         /*
         for(String text : list){
