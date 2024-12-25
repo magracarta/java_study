@@ -8,6 +8,16 @@ public class Main {
         String [] answer = new String[n];
 
         for (int i = 0; i < n; i++){
+            char[] s=strs[i].toCharArray();
+            int lt =0, rt=strs[i].length()-1;
+            while(lt < rt){
+                char tmp = s[lt];
+                s[lt] = s[rt];
+                s[rt] = tmp;
+                lt++;
+                rt--;
+            }
+            answer[i] = String.valueOf(s);
             /*String reverseText = "";
             for(int k =strs[i].length()-1; k >= 0; k--){
                 reverseText += strs[i].charAt(k);
