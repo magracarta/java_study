@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mobliefactory.lotto.DAO.ILottonumber">
+    <select id="lottoSize" resultType="int">
+        SELECT COUNT(*) FROM lottonumber
+    </select>
+    <insert id="addLotto" parameterType="com.mobliefactory.lotto.DTO.Lottonumber">
+        insert into lottonumber (`seq`, `rank`, `number`, `use`) values (#{seq}, #{rank}, #{number}, #{use});
+    </insert>
+</mapper>
