@@ -21,7 +21,7 @@ public class LottoNumberCreateService {
     //담청 번호 렌덤 6개 만들기
     public ArrayList<Integer> createLottoNumber() {
         ArrayList<Integer> lottoNumbers = new ArrayList<>();
-        while(lottoNumbers.size() <= 6) {
+        while(lottoNumbers.size() < 6) {
             int randomnumber = random.nextInt(lottosize) + 1;
             //똑같은 숫자가 있으면 다시 숫자 조회
             if(!lottoNumbers.contains(randomnumber)) lottoNumbers.add(randomnumber);
@@ -67,6 +67,7 @@ public class LottoNumberCreateService {
         while (i < people) {
             ArrayList<Integer> numbersCopy = new ArrayList<>(numbers);
             int randomseq = random.nextInt(maxseq) + minseq;
+
             //이미 인덱스가 존재하면 코드 실행 x
             if(registerednum.stream().anyMatch(item-> item.getSeq() == randomseq)) continue;
 
@@ -77,11 +78,10 @@ public class LottoNumberCreateService {
 
             int j = 0;
             while (j < deffsize) {
-                int idx = random.nextInt(6) + 1;  // 랜덤 인덱스 (1 ~ 6)
+                int idx = random.nextInt(5) + 1;  // 랜덤 인덱스 (1 ~ 6)
                 Integer num = random.nextInt(lottosize) + 1;  // 랜덤 숫자 (1 ~ lottosize)
-
                 // 중복 체크: numbersCopy에 없는 num과 usedIndexes에 없는 idx로만 추가
-                if (!usedNumbers.contains(num) && !usedIndexes.contains(idx)) {
+                if (!usedNumbers.contains(num) && !usedIndexes.contains(idx) && !numbersCopy.contains(num)) {
                     usedIndexes.add(idx);
                     usedNumbers.add(num);
                     numarr[j] = num;

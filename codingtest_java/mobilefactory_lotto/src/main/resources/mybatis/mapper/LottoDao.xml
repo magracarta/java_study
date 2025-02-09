@@ -3,9 +3,58 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mobliefactory.lotto.DAO.ILottonumber">
     <select id="lottoSize" resultType="int">
-        SELECT COUNT(*) FROM lottonumber
+        select count(*) from lottonumber
     </select>
     <insert id="addLotto" parameterType="com.mobliefactory.lotto.DTO.Lottonumber">
         insert into lottonumber (`seq`, `rank`, `number`, `use`) values (#{seq}, #{rank}, #{number}, #{use});
     </insert>
+    <select id="randomGetLottoNumber" resultType="int">
+        select seq from lottonumber where `use` = false and seq != 1 order by RAND() limit 1;
+    </select>
+    <select id="checkLottoUse" resultType="int">
+        select count(*) from lottonumber where `use` = false and seq != 1;
+    </select>
+    <select id="getLottoNumber" resultType="String">
+        select `number` from lottonumber where seq = #{seq};
+    </select>
+    <update id="updateLottoUse" parameterType="int">
+        update lottonumber set `use` = 1 where seq=#{seq};
+    </update>
+    <select id="getLotto" parameterType="int">
+        select * from lottonumber where seq=#{seq};
+    </select>
+    <select id="randomNumberCreate" resultType="int">
+        with random_value as (
+        select FLOOR(RAND() * (#{maxseq} - #{minseq} + 1)) + #{minseq} as random_number
+            )
+        select random_number
+        from random_value
+        where random_number not in (select seq from lottonumber)
+        limit 1;
+    </select>
+
+
+    <!-- register   -->
+
+    <select id="checkPhoneNumber" resultType="int">
+        select count(*) from lottoregister where phoneNumber = #{phoneNum};
+    </select>
+    <insert id="saveLottoRegister" parameterType="com.mobliefactory.lotto.DTO.LottoRegister">
+        insert into lottoregister (`lottoseq`, `phoneNumber`) values (#{lottoseq}, #{phoneNumber});
+    </insert>
+
+    <select id="getLottoSeq" resultType="int">
+        select lottoseq from lottoregister where phoneNumber = #{phoneNumber};
+    </select>
+    <select id="getLottoRegisterList" resultType="com.mobliefactory.lotto.DTO.LottoRegister">
+        select * from lottoregister where `check` = 0;
+    </select>
+
+    <update id="updateRegister" parameterType="String">
+        update lottoregister set `check` = 1 where phoneNumber=#{phone};
+    </update>
+  <update id="allRegisterUpdate" >
+        update lottoregister set `check` = 1;
+    </update>
+
 </mapper>

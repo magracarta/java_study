@@ -19,8 +19,8 @@ public class CookieFn {
     }
 
     //쿠키 등록
-    public void setCookie(final HttpServletResponse response, final String name, long second) {
-        Cookie firstvisiteCookie = new Cookie(name,"false");
+    public void setCookie(final HttpServletResponse response, final String name, long second , String value) {
+        Cookie firstvisiteCookie = new Cookie(name,value);
         firstvisiteCookie.setMaxAge((int)second);
         response.addCookie(firstvisiteCookie);
     }
@@ -31,5 +31,18 @@ public class CookieFn {
         firstVisiteCookie.setMaxAge(0);
         firstVisiteCookie.setPath("/");
         response.addCookie(firstVisiteCookie);
+    }
+
+    //쿠키 값 꺼내기
+    public String getCookieValue(HttpServletRequest request, String name) {
+        Cookie[] cookies = request.getCookies();  // 모든 쿠키 가져오기
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals(name)) { // 쿠키 이름 확인
+                    return cookie.getValue();  // 해당 쿠키 값 반환
+                }
+            }
+        }
+        return null; // 해당 쿠키가 없으면 null 반환
     }
 }
