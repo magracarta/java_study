@@ -12,7 +12,7 @@ public class TimeFn {
     public final LocalDateTime startTime = LocalDateTime.of(2025,2,1,0,0,0);
     public final LocalDateTime endTime = LocalDateTime.of(2025,3,31,23,59,59);
     public final LocalDateTime now = LocalDateTime.now();
-    public final LocalDateTime announceStartTime = LocalDateTime.of(2025,2,1,0,0,0);
+    public final LocalDateTime announceStartTime = LocalDateTime.of(2025,4,1,0,0,0);
     public final LocalDateTime announceEneTime = LocalDateTime.of(2025,4,15,23,59,59);
     //발표 기간 : 2025/04/01 ~ 2025/04/15
 

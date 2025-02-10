@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
 </head>
 <body>
+ <h2>이벤트 참가페이지</h2>
   <h1>핸드폰 번호를 먼저 인증해주세요.</h1>
   <form action="sendPhoneNumber" method="post">
       <div>

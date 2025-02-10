@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <h3>당청자 발표</h3>
+    <h3>당첨자 발표</h3>
     <h4>번호로 조회</h4>
     <form action="selectMyLotto" >
         <div>
