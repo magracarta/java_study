@@ -23,6 +23,7 @@
     <select id="getLotto" parameterType="int">
         select * from lottonumber where seq=#{seq};
     </select>
+
     <select id="randomNumberCreate" resultType="int">
         with random_value as (
         select FLOOR(RAND() * (#{maxseq} - #{minseq} + 1)) + #{minseq} as random_number
