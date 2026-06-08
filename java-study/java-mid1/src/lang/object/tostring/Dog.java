@@ -4,9 +4,9 @@ public class Dog {
     private String dogName;
     private int age;
 
-    public Dog(String dogName, int age) {
-        this.dogName = dogName;
+    public Dog( String dogName,int age) {
         this.age = age;
+        this.dogName = dogName;
     }
 
     @Override
