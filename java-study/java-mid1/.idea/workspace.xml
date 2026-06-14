@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lang/object/equals/EqualsMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/object/equals/EqualsMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/object/equals/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/object/equals/RectangleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/object/equals/UserV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/object/equals/UserV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/PrimitiveMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,9 @@
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
+    "Application.PrimitiveMain.executor": "Run",
     "Application.RectangleMain.executor": "Run",
+    "Application.RefMain1_1.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,9 +61,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RectangleMain">
-    <configuration name="EqualsMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.equals.EqualsMainV1" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.immutable.address" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RefMain2">
+    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.object.equals.EqualsMainV2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.equals.EqualsMainV2" />
+    <configuration name="PrimitiveMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.PrimitiveMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.equals.*" />
+          <option name="PATTERN" value="lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.tostring.ToStringMain1" />
+    <configuration name="RefMain1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain1_1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.tostring.*" />
+          <option name="PATTERN" value="lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.tostring.ToStringMain2" />
+    <configuration name="RefMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.tostring.*" />
+          <option name="PATTERN" value="lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RefMain2" />
+        <item itemvalue="Application.RefMain1_1" />
+        <item itemvalue="Application.PrimitiveMain" />
         <item itemvalue="Application.RectangleMain" />
         <item itemvalue="Application.EqualsMainV2" />
-        <item itemvalue="Application.EqualsMainV1" />
-        <item itemvalue="Application.ToStringMain2" />
-        <item itemvalue="Application.ToStringMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +160,8 @@
       <updated>1780921781787</updated>
       <workItem from="1780921782965" duration="2907000" />
       <workItem from="1780924811825" duration="777000" />
-      <workItem from="1781005683218" duration="1602000" />
+      <workItem from="1781005683218" duration="1924000" />
+      <workItem from="1781439313565" duration="1850000" />
     </task>
     <servers />
   </component>
