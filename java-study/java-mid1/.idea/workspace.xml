@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/PrimitiveMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain1_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/ImmutableMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/ImmutableObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/MutableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/MutableObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +41,12 @@
   "keyToString": {
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
+    "Application.ImmutableMain1.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MemberMainV1.executor": "Run",
+    "Application.MemberMainV2.executor": "Run",
+    "Application.MutableMain.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
@@ -66,13 +73,13 @@
       <recent name="lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RefMain2">
-    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.equals.EqualsMainV2" />
+  <component name="RunManager" selected="Application.ImmutableMain1">
+    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.ImmutableMain1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.equals.*" />
+          <option name="PATTERN" value="lang.immutable.change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.PrimitiveMain" />
+    <configuration name="MemberMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.MemberMainV1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.equals.RectangleMain" />
+    <configuration name="MemberMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.MemberMainV2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.equals.*" />
+          <option name="PATTERN" value="lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain1_1" />
+    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.MutableMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.immutable.change.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableMain1" />
+        <item itemvalue="Application.MutableMain" />
+        <item itemvalue="Application.MemberMainV2" />
+        <item itemvalue="Application.MemberMainV1" />
         <item itemvalue="Application.RefMain2" />
-        <item itemvalue="Application.RefMain1_1" />
-        <item itemvalue="Application.PrimitiveMain" />
-        <item itemvalue="Application.RectangleMain" />
-        <item itemvalue="Application.EqualsMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -162,10 +169,22 @@
       <workItem from="1780924811825" duration="777000" />
       <workItem from="1781005683218" duration="1924000" />
       <workItem from="1781439313565" duration="1850000" />
+      <workItem from="1781524951084" duration="1334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lang/immutable/change/ImmutableObj.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
