@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/ImmutableMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/ImmutableObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/MutableMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/change/MutableObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/CharacterArrayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/LoopStringBuilderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/LoopStringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/StringBuilderMain1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/MethodChiningMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/ValueAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringCompareIsonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringInfoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringSearchMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringSplitMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/stringBasicMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +51,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CharacterArrayMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.LangMain.executor": "Run",
+    "Application.LoopStringBuilderMain.executor": "Run",
+    "Application.LoopStringMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
+    "Application.MethodChiningMain1.executor": "Run",
     "Application.MutableMain.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
@@ -53,10 +69,25 @@
     "Application.PrimitiveMain.executor": "Run",
     "Application.RectangleMain.executor": "Run",
     "Application.RefMain1_1.executor": "Run",
+    "Application.StringBuilderMain1_1.executor": "Run",
+    "Application.StringChangeMain1.executor": "Run",
+    "Application.StringChangeMain2.executor": "Run",
+    "Application.StringCompareIsonMain.executor": "Run",
+    "Application.StringEqualsMain1.executor": "Run",
+    "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringImmutable1.executor": "Run",
+    "Application.StringImmutable2.executor": "Run",
+    "Application.StringInfoMain.executor": "Run",
+    "Application.StringSearchMain.executor": "Run",
+    "Application.StringSplitMain.executor": "Run",
+    "Application.StringUtilsMain1.executor": "Run",
+    "Application.StringUtilsMain2.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
+    "Application.stringBasicMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -65,21 +96,28 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/rmfoa/OneDrive/Desktop/github/java_study/java-study/java-mid1/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.string.builder" />
+      <recent name="lang.string.method" />
+      <recent name="lang.string.immutable" />
       <recent name="lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableMain1">
-    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.ImmutableMain1" />
+  <component name="RunManager" selected="Application.MethodChiningMain1">
+    <configuration name="LoopStringBuilderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.builder.LoopStringBuilderMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.change.*" />
+          <option name="PATTERN" value="lang.string.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.MemberMainV1" />
+    <configuration name="LoopStringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.builder.LoopStringMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.string.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.MemberMainV2" />
+    <configuration name="MethodChiningMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.chaining.MethodChiningMain1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.string.chaining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.change.MutableMain" />
+    <configuration name="StringBuilderMain1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.builder.StringBuilderMain1_1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.change.*" />
+          <option name="PATTERN" value="lang.string.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain2" />
+    <configuration name="StringUtilsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringUtilsMain2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.string.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImmutableMain1" />
-        <item itemvalue="Application.MutableMain" />
-        <item itemvalue="Application.MemberMainV2" />
-        <item itemvalue="Application.MemberMainV1" />
-        <item itemvalue="Application.RefMain2" />
+        <item itemvalue="Application.MethodChiningMain1" />
+        <item itemvalue="Application.LoopStringBuilderMain" />
+        <item itemvalue="Application.LoopStringMain" />
+        <item itemvalue="Application.StringBuilderMain1_1" />
+        <item itemvalue="Application.StringUtilsMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,22 +207,18 @@
       <workItem from="1780924811825" duration="777000" />
       <workItem from="1781005683218" duration="1924000" />
       <workItem from="1781439313565" duration="1850000" />
-      <workItem from="1781524951084" duration="1334000" />
+      <workItem from="1781524951084" duration="1900000" />
+      <workItem from="1782040383351" duration="2307000" />
+      <workItem from="1782042861809" duration="1195000" />
+      <workItem from="1782044203620" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lang/immutable/change/ImmutableObj.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

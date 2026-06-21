@@ -1,0 +1,9 @@
+package lang.string;
+
+public class CharacterArrayMain {
+    public static void main(String[] args) {
+        char [] charArr = new char[]{'h','e','l','l','o'};
+
+        System.out.println( charArr);
+    }
+}
