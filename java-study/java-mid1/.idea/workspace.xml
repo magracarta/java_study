@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/CharacterArrayMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/LoopStringBuilderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/LoopStringMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/StringBuilderMain1_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/MethodChiningMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/ValueAdder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringChangeMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringCompareIsonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringInfoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringSearchMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringSplitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringUtilsMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/string/stringBasicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/AutoBoxingMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerMethodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerNullMain0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerNullMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperClassMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperUtilsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperVsPrimitive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AutoBoxingMain1.executor": "Run",
     "Application.CharacterArrayMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
@@ -63,6 +53,10 @@
     "Application.MemberMainV2.executor": "Run",
     "Application.MethodChiningMain1.executor": "Run",
     "Application.MutableMain.executor": "Run",
+    "Application.MyIntegerMethodMain.executor": "Run",
+    "Application.MyIntegerMethodMain0.executor": "Run",
+    "Application.MyIntegerNullMain0.executor": "Run",
+    "Application.MyIntegerNullMain1.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
@@ -84,6 +78,9 @@
     "Application.StringUtilsMain2.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
+    "Application.WrapperClassMain.executor": "Run",
+    "Application.WrapperUtilsMain.executor": "Run",
+    "Application.WrapperVsPrimitive.executor": "Run",
     "Application.stringBasicMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -105,19 +102,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.wrapper" />
       <recent name="lang.string.builder" />
       <recent name="lang.string.method" />
       <recent name="lang.string.immutable" />
       <recent name="lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodChiningMain1">
-    <configuration name="LoopStringBuilderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.builder.LoopStringBuilderMain" />
+  <component name="RunManager" selected="Application.WrapperVsPrimitive">
+    <configuration name="AutoBoxingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.wrapper.AutoBoxingMain1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.builder.*" />
+          <option name="PATTERN" value="lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopStringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.builder.LoopStringMain" />
+    <configuration name="MyIntegerNullMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.wrapper.MyIntegerNullMain1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.builder.*" />
+          <option name="PATTERN" value="lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChiningMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.chaining.MethodChiningMain1" />
+    <configuration name="WrapperClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.wrapper.WrapperClassMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.chaining.*" />
+          <option name="PATTERN" value="lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderMain1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.builder.StringBuilderMain1_1" />
+    <configuration name="WrapperUtilsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.wrapper.WrapperUtilsMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.builder.*" />
+          <option name="PATTERN" value="lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.string.method.StringUtilsMain2" />
+    <configuration name="WrapperVsPrimitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.wrapper.WrapperVsPrimitive" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.string.method.*" />
+          <option name="PATTERN" value="lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodChiningMain1" />
-        <item itemvalue="Application.LoopStringBuilderMain" />
-        <item itemvalue="Application.LoopStringMain" />
-        <item itemvalue="Application.StringBuilderMain1_1" />
-        <item itemvalue="Application.StringUtilsMain2" />
+        <item itemvalue="Application.WrapperVsPrimitive" />
+        <item itemvalue="Application.WrapperUtilsMain" />
+        <item itemvalue="Application.AutoBoxingMain1" />
+        <item itemvalue="Application.WrapperClassMain" />
+        <item itemvalue="Application.MyIntegerNullMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +209,7 @@
       <workItem from="1782040383351" duration="2307000" />
       <workItem from="1782042861809" duration="1195000" />
       <workItem from="1782044203620" duration="1537000" />
+      <workItem from="1782130890370" duration="2674000" />
     </task>
     <servers />
   </component>
