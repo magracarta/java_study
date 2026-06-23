@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/AutoBoxingMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerMethodMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerNullMain0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerNullMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperClassMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperUtilsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperVsPrimitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassCreateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassMetaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/math/MathMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/math/RandomMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/system/SystemMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/test/LotooGeneratiorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/test/LottoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +45,17 @@
   "keyToString": {
     "Application.AutoBoxingMain1.executor": "Run",
     "Application.CharacterArrayMain.executor": "Run",
+    "Application.ClassCreateMain.executor": "Debug",
+    "Application.ClassMetaMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.LoopStringBuilderMain.executor": "Run",
     "Application.LoopStringMain.executor": "Run",
+    "Application.LotooGeneratiorMain.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MathMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
     "Application.MethodChiningMain1.executor": "Run",
@@ -61,6 +68,7 @@
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
     "Application.PrimitiveMain.executor": "Run",
+    "Application.RandomMain.executor": "Run",
     "Application.RectangleMain.executor": "Run",
     "Application.RefMain1_1.executor": "Run",
     "Application.StringBuilderMain1_1.executor": "Run",
@@ -76,9 +84,13 @@
     "Application.StringSplitMain.executor": "Run",
     "Application.StringUtilsMain1.executor": "Run",
     "Application.StringUtilsMain2.executor": "Run",
+    "Application.SystemMain.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "Application.WrapperClassMain.executor": "Run",
+    "Application.WrapperTest1.executor": "Run",
+    "Application.WrapperTest3.executor": "Run",
+    "Application.WrapperTest4.executor": "Run",
     "Application.WrapperUtilsMain.executor": "Run",
     "Application.WrapperVsPrimitive.executor": "Run",
     "Application.stringBasicMain.executor": "Run",
@@ -86,6 +98,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -102,20 +115,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lang.test" />
       <recent name="lang.wrapper" />
       <recent name="lang.string.builder" />
       <recent name="lang.string.method" />
       <recent name="lang.string.immutable" />
-      <recent name="lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WrapperVsPrimitive">
-    <configuration name="AutoBoxingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.wrapper.AutoBoxingMain1" />
+  <component name="RunManager" selected="Application.LotooGeneratiorMain">
+    <configuration name="LotooGeneratiorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.test.LotooGeneratiorMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.wrapper.*" />
+          <option name="PATTERN" value="lang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyIntegerNullMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.wrapper.MyIntegerNullMain1" />
+    <configuration name="WrapperTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.test.WrapperTest1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.wrapper.*" />
+          <option name="PATTERN" value="lang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.wrapper.WrapperClassMain" />
+    <configuration name="WrapperTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.test.WrapperTest2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.wrapper.*" />
+          <option name="PATTERN" value="lang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperUtilsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.wrapper.WrapperUtilsMain" />
+    <configuration name="WrapperTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.test.WrapperTest3" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.wrapper.*" />
+          <option name="PATTERN" value="lang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperVsPrimitive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.wrapper.WrapperVsPrimitive" />
+    <configuration name="WrapperTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.test.WrapperTest4" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.wrapper.*" />
+          <option name="PATTERN" value="lang.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WrapperVsPrimitive" />
-        <item itemvalue="Application.WrapperUtilsMain" />
-        <item itemvalue="Application.AutoBoxingMain1" />
-        <item itemvalue="Application.WrapperClassMain" />
-        <item itemvalue="Application.MyIntegerNullMain1" />
+        <item itemvalue="Application.LotooGeneratiorMain" />
+        <item itemvalue="Application.WrapperTest4" />
+        <item itemvalue="Application.WrapperTest3" />
+        <item itemvalue="Application.WrapperTest2" />
+        <item itemvalue="Application.WrapperTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +222,10 @@
       <workItem from="1782040383351" duration="2307000" />
       <workItem from="1782042861809" duration="1195000" />
       <workItem from="1782044203620" duration="1537000" />
-      <workItem from="1782130890370" duration="2674000" />
+      <workItem from="1782130890370" duration="3033000" />
+      <workItem from="1782215830851" duration="1927000" />
+      <workItem from="1782217840808" duration="782000" />
+      <workItem from="1782218705624" duration="1003000" />
     </task>
     <servers />
   </component>
