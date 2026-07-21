@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassCreateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassMetaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/clazz/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/math/MathMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/math/RandomMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/system/SystemMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/test/LotooGeneratiorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/test/LottoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/test/WrapperTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/StringGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx0_1_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +71,8 @@
     "Application.StringCompareIsonMain.executor": "Run",
     "Application.StringEqualsMain1.executor": "Run",
     "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringGradeEx0_1.executor": "Run",
+    "Application.StringGradeEx0_2.executor": "Run",
     "Application.StringImmutable1.executor": "Run",
     "Application.StringImmutable2.executor": "Run",
     "Application.StringInfoMain.executor": "Run",
@@ -115,14 +111,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="enumeration.ex1" />
+      <recent name="enumeration.ex0" />
       <recent name="lang.test" />
       <recent name="lang.wrapper" />
       <recent name="lang.string.builder" />
-      <recent name="lang.string.method" />
-      <recent name="lang.string.immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LotooGeneratiorMain">
+  <component name="RunManager" selected="Application.StringGradeEx0_1_1">
     <configuration name="LotooGeneratiorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.test.LotooGeneratiorMain" />
       <module name="java-mid1" />
@@ -136,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.test.WrapperTest1" />
+    <configuration name="StringGradeEx0_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.ex0.StringGradeEx0_1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.test.*" />
+          <option name="PATTERN" value="enumeration.ex0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.test.WrapperTest2" />
+    <configuration name="StringGradeEx0_1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.ex1.StringGradeEx0_1_1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.test.*" />
+          <option name="PATTERN" value="enumeration.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.test.WrapperTest3" />
+    <configuration name="StringGradeEx0_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.ex0.StringGradeEx0_2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.test.*" />
+          <option name="PATTERN" value="enumeration.ex0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringGradeEx0_1_1" />
+        <item itemvalue="Application.StringGradeEx0_2" />
+        <item itemvalue="Application.StringGradeEx0_1" />
         <item itemvalue="Application.LotooGeneratiorMain" />
         <item itemvalue="Application.WrapperTest4" />
-        <item itemvalue="Application.WrapperTest3" />
-        <item itemvalue="Application.WrapperTest2" />
-        <item itemvalue="Application.WrapperTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +222,9 @@
       <workItem from="1782215830851" duration="1927000" />
       <workItem from="1782217840808" duration="782000" />
       <workItem from="1782218705624" duration="1003000" />
+      <workItem from="1783246209257" duration="2000" />
+      <workItem from="1783860208991" duration="46000" />
+      <workItem from="1784638207428" duration="838000" />
     </task>
     <servers />
   </component>
