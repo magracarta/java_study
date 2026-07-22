@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/DiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/DiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/StringGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx0_1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +64,7 @@
     "Application.StringEqualsMain1.executor": "Run",
     "Application.StringEqualsMain2.executor": "Run",
     "Application.StringGradeEx0_1.executor": "Run",
+    "Application.StringGradeEx0_1_1.executor": "Run",
     "Application.StringGradeEx0_2.executor": "Run",
     "Application.StringImmutable1.executor": "Run",
     "Application.StringImmutable2.executor": "Run",
@@ -224,7 +217,7 @@
       <workItem from="1782218705624" duration="1003000" />
       <workItem from="1783246209257" duration="2000" />
       <workItem from="1783860208991" duration="46000" />
-      <workItem from="1784638207428" duration="838000" />
+      <workItem from="1784638207428" duration="1120000" />
     </task>
     <servers />
   </component>
