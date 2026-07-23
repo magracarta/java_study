@@ -1,14 +1,14 @@
-package enumeration.ex1;
+package enumeration.ref1;
 
 
-public class StringGradeEx0_1_2 {
+public class ClassMain {
     public static void main(String[] args) {
-        int price = 10000;
 
+        int price = 10000;
         DiscountService discountService = new DiscountService();
-        int basic = discountService.discount(StringGrade.BASIC, price);
-        int gold = discountService.discount(StringGrade.GOLD, price);
-        int diamond = discountService.discount(StringGrade.DIAMOND, price);
+        int basic = discountService.discount(ClassGrade.BASIC, price);
+        int gold = discountService.discount(ClassGrade.GOLD, price);
+        int diamond = discountService.discount(ClassGrade.DIAMOND, price);
 
         System.out.println("BASIC 등급의 할인 : " + basic);
         System.out.println("GOLD 등급의 할인 : " + gold);

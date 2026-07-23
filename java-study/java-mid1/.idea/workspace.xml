@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassGradeEx2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassGradeEx2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/ClassGradeEx3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/EnumMethodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/EnumRefMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref1/ClassGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref1/ClassMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref1/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref2/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref2/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/ClassMain_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/test1/AuthGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/test1/AuthGradeMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/test1/AuthGradeMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/test2/http/HttpStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/test2/http/HttpStatusMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumeration/ex0/DiscountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumeration/ref3/ClassMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/DiscountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/StringGrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx0_1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumeration/ex3/ClassGradeEx3_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx0_1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumeration/ref2/ClassMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -36,15 +56,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AuthGradeMain1.executor": "Run",
+    "Application.AuthGradeMain2.executor": "Run",
     "Application.AutoBoxingMain1.executor": "Run",
     "Application.CharacterArrayMain.executor": "Run",
     "Application.ClassCreateMain.executor": "Debug",
     "Application.ClassGradeEx2_1.executor": "Run",
     "Application.ClassGradeEx2_2.executor": "Run",
+    "Application.ClassGradeEx3_1.executor": "Run",
     "Application.ClassMain.executor": "Run",
+    "Application.ClassMain_2.executor": "Run",
     "Application.ClassMetaMain.executor": "Run",
+    "Application.EnumMethodMain.executor": "Run",
+    "Application.EnumRefMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
+    "Application.HttpStatusMain.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.LoopStringBuilderMain.executor": "Run",
@@ -92,6 +119,8 @@
     "Application.WrapperTest4.executor": "Run",
     "Application.WrapperUtilsMain.executor": "Run",
     "Application.WrapperVsPrimitive.executor": "Run",
+    "Application.enumeration.ref2.ClassMain.executor": "Run",
+    "Application.enumeration.ref3.ClassMain.executor": "Run",
     "Application.stringBasicMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -114,20 +143,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="enumeration.ex2" />
-      <recent name="enumeration.ex1" />
-      <recent name="enumeration.ex0" />
-      <recent name="lang.test" />
-      <recent name="lang.wrapper" />
+      <recent name="enumeration.test1" />
+      <recent name="enumeration.ref3" />
+      <recent name="enumeration.ref2" />
+      <recent name="enumeration.ref1" />
+      <recent name="enumeration.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClassGradeEx2_2">
-    <configuration name="ClassGradeEx2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumeration.ex2.ClassGradeEx2_1" />
+  <component name="RunManager" selected="Application.HttpStatusMain">
+    <configuration name="AuthGradeMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.test1.AuthGradeMain1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumeration.ex2.*" />
+          <option name="PATTERN" value="enumeration.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassGradeEx2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumeration.ex2.ClassGradeEx2_2" />
+    <configuration name="AuthGradeMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.test1.AuthGradeMain2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumeration.ex2.*" />
+          <option name="PATTERN" value="enumeration.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumeration.ex2.ClassMain" />
+    <configuration name="ClassMain_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.ref3.ClassMain_2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumeration.ex2.*" />
+          <option name="PATTERN" value="enumeration.ref3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringGradeEx0_1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumeration.ex1.StringGradeEx0_1_1" />
+    <configuration name="HttpStatusMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.test2.http.HttpStatusMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumeration.ex1.*" />
+          <option name="PATTERN" value="enumeration.test2.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringGradeEx0_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumeration.ex0.StringGradeEx0_2" />
+    <configuration name="enumeration.ref3.ClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.ref3.ClassMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumeration.ex0.*" />
+          <option name="PATTERN" value="enumeration.ref3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassGradeEx2_2" />
-        <item itemvalue="Application.ClassGradeEx2_1" />
-        <item itemvalue="Application.ClassMain" />
-        <item itemvalue="Application.StringGradeEx0_1_1" />
-        <item itemvalue="Application.StringGradeEx0_2" />
+        <item itemvalue="Application.HttpStatusMain" />
+        <item itemvalue="Application.AuthGradeMain2" />
+        <item itemvalue="Application.AuthGradeMain1" />
+        <item itemvalue="Application.ClassMain_2" />
+        <item itemvalue="Application.enumeration.ref3.ClassMain" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +257,9 @@
       <workItem from="1783246209257" duration="2000" />
       <workItem from="1783860208991" duration="46000" />
       <workItem from="1784638207428" duration="1120000" />
-      <workItem from="1784726465046" duration="739000" />
+      <workItem from="1784726465046" duration="1027000" />
+      <workItem from="1784808964904" duration="2164000" />
+      <workItem from="1784811286773" duration="1383000" />
     </task>
     <servers />
   </component>
