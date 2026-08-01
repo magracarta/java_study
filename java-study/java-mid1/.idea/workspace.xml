@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/time/ChronoFieldMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/ChronoUnitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/DurationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/InstantMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/PeriodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/ChangeTimePlusMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/ChangeTimeWithMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/GetTimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/IsSupportedMain1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,8 @@
     "Application.AuthGradeMain1.executor": "Run",
     "Application.AuthGradeMain2.executor": "Run",
     "Application.AutoBoxingMain1.executor": "Run",
+    "Application.ChangeTimePlusMain.executor": "Run",
+    "Application.ChangeTimeWithMain.executor": "Run",
     "Application.CharacterArrayMain.executor": "Run",
     "Application.ChronoFieldMain.executor": "Run",
     "Application.ChronoUnitMain.executor": "Debug",
@@ -55,9 +56,11 @@
     "Application.EnumRefMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
+    "Application.GetTimeMain.executor": "Run",
     "Application.HttpStatusMain.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.InstantMain.executor": "Run",
+    "Application.IsSupportedMain1.executor": "Run",
     "Application.LangMain.executor": "Run",
     "Application.LocalDateMain.executor": "Run",
     "Application.LocalDateTimeMain.executor": "Debug",
@@ -142,7 +145,33 @@
       <recent name="enumeration.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChronoFieldMain">
+  <component name="RunManager" selected="Application.ChangeTimeWithMain">
+    <configuration name="ChangeTimePlusMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.ChangeTimePlusMain" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangeTimeWithMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.ChangeTimeWithMain" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChronoFieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="time.ChronoFieldMain" />
       <module name="java-mid1" />
@@ -156,8 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChronoUnitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.ChronoUnitMain" />
+    <configuration name="GetTimeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.GetTimeMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
@@ -169,34 +198,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DurationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.DurationMain" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstantMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.InstantMain" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PeriodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.PeriodMain" />
+    <configuration name="IsSupportedMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.IsSupportedMain1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
@@ -210,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChangeTimeWithMain" />
+        <item itemvalue="Application.IsSupportedMain1" />
+        <item itemvalue="Application.ChangeTimePlusMain" />
+        <item itemvalue="Application.GetTimeMain" />
         <item itemvalue="Application.ChronoFieldMain" />
-        <item itemvalue="Application.ChronoUnitMain" />
-        <item itemvalue="Application.DurationMain" />
-        <item itemvalue="Application.PeriodMain" />
-        <item itemvalue="Application.InstantMain" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +262,8 @@
       <workItem from="1785327649539" duration="596000" />
       <workItem from="1785577516878" duration="1979000" />
       <workItem from="1785579615732" duration="306000" />
+      <workItem from="1785587327940" duration="1163000" />
+      <workItem from="1785588683631" duration="202000" />
     </task>
     <servers />
   </component>
