@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/time/ChangeTimePlusMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/ChangeTimeWithMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/GetTimeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/IsSupportedMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/FormattingMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/FormattingMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/test/TestAdjusters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/test/TestBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/test/TestCalenderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/test/TestLoopPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/test/TestPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/test/TestZone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +60,8 @@
     "Application.EnumRefMain.executor": "Run",
     "Application.EqualsMainV1.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
+    "Application.FormattingMain1.executor": "Run",
+    "Application.FormattingMain2.executor": "Run",
     "Application.GetTimeMain.executor": "Run",
     "Application.HttpStatusMain.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
@@ -104,6 +110,12 @@
     "Application.StringUtilsMain1.executor": "Run",
     "Application.StringUtilsMain2.executor": "Run",
     "Application.SystemMain.executor": "Run",
+    "Application.TestAdjusters.executor": "Run",
+    "Application.TestBetween.executor": "Run",
+    "Application.TestCalenderPrinter.executor": "Run",
+    "Application.TestLoopPlus.executor": "Run",
+    "Application.TestPlus.executor": "Run",
+    "Application.TestZone.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "Application.WrapperClassMain.executor": "Run",
@@ -145,13 +157,13 @@
       <recent name="enumeration.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChangeTimeWithMain">
-    <configuration name="ChangeTimePlusMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.ChangeTimePlusMain" />
+  <component name="RunManager" selected="Application.TestCalenderPrinter">
+    <configuration name="TestAdjusters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.test.TestAdjusters" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="time.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeTimeWithMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.ChangeTimeWithMain" />
+    <configuration name="TestBetween" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.test.TestBetween" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="time.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChronoFieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.ChronoFieldMain" />
+    <configuration name="TestCalenderPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.test.TestCalenderPrinter" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="time.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTimeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.GetTimeMain" />
+    <configuration name="TestLoopPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.test.TestLoopPlus" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="time.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSupportedMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.IsSupportedMain1" />
+    <configuration name="TestZone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.test.TestZone" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="time.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChangeTimeWithMain" />
-        <item itemvalue="Application.IsSupportedMain1" />
-        <item itemvalue="Application.ChangeTimePlusMain" />
-        <item itemvalue="Application.GetTimeMain" />
-        <item itemvalue="Application.ChronoFieldMain" />
+        <item itemvalue="Application.TestCalenderPrinter" />
+        <item itemvalue="Application.TestZone" />
+        <item itemvalue="Application.TestAdjusters" />
+        <item itemvalue="Application.TestBetween" />
+        <item itemvalue="Application.TestLoopPlus" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +275,8 @@
       <workItem from="1785577516878" duration="1979000" />
       <workItem from="1785579615732" duration="306000" />
       <workItem from="1785587327940" duration="1163000" />
-      <workItem from="1785588683631" duration="202000" />
+      <workItem from="1785588683631" duration="353000" />
+      <workItem from="1785631886212" duration="5337000" />
     </task>
     <servers />
   </component>
