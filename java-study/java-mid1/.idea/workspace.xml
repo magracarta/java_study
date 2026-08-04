@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/NestedOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/NestedOuterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex1/NetWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex1/NetworkMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex1/NetworkMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex2/NetWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex2/NetworkMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +82,7 @@
     "Application.MyIntegerNullMain0.executor": "Run",
     "Application.MyIntegerNullMain1.executor": "Run",
     "Application.NestedOuterMain.executor": "Run",
+    "Application.NetworkMain.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.ObjectPolyExample2.executor": "Run",
@@ -123,6 +127,7 @@
     "Application.ZonedDateTimeMain.executor": "Run",
     "Application.enumeration.ref2.ClassMain.executor": "Run",
     "Application.enumeration.ref3.ClassMain.executor": "Run",
+    "Application.nested.nested.ex2.NetworkMain.executor": "Run",
     "Application.stringBasicMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -145,14 +150,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nested.nested.ex2" />
       <recent name="enumeration.test1" />
       <recent name="enumeration.ref3" />
       <recent name="enumeration.ref2" />
       <recent name="enumeration.ref1" />
-      <recent name="enumeration.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedOuterMain">
+  <component name="RunManager" selected="Application.nested.nested.ex2.NetworkMain">
     <configuration name="NestedOuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nested.nested.NestedOuterMain" />
       <module name="java-mid1" />
@@ -166,25 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAdjusters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.test.TestAdjusters" />
+    <configuration name="NetworkMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.nested.ex1.NetworkMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBetween" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="time.test.TestBetween" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="time.test.*" />
+          <option name="PATTERN" value="nested.nested.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +210,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nested.nested.ex2.NetworkMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.nested.ex2.NetworkMain" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nested.nested.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nested.nested.ex2.NetworkMain" />
+        <item itemvalue="Application.NetworkMain" />
         <item itemvalue="Application.NestedOuterMain" />
         <item itemvalue="Application.TestCalenderPrinter" />
         <item itemvalue="Application.TestZone" />
-        <item itemvalue="Application.TestAdjusters" />
-        <item itemvalue="Application.TestBetween" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +278,7 @@
       <workItem from="1785588683631" duration="353000" />
       <workItem from="1785631886212" duration="5337000" />
       <workItem from="1785758610374" duration="2343000" />
+      <workItem from="1785843473095" duration="812000" />
     </task>
     <servers />
   </component>
