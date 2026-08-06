@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nested/local/LocalOuterV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/local/LocalOuterV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/local/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nested/local/LocalOuterV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +67,7 @@
     "Application.LocalDateMain.executor": "Run",
     "Application.LocalDateTimeMain.executor": "Debug",
     "Application.LocalOuterV1.executor": "Run",
+    "Application.LocalOuterV3.executor": "Run",
     "Application.LocalTimeMain.executor": "Debug",
     "Application.LoopStringBuilderMain.executor": "Run",
     "Application.LoopStringMain.executor": "Run",
@@ -161,7 +160,7 @@
       <recent name="enumeration.ref2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocalOuterV1">
+  <component name="RunManager" selected="Application.LocalOuterV3">
     <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nested.inner.ex1.CarMain" />
       <module name="java-mid1" />
@@ -175,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnterOuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested.inner.InnterOuterMain" />
+    <configuration name="LocalOuterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.local.LocalOuterV1" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nested.inner.*" />
+          <option name="PATTERN" value="nested.local.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,8 +187,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalOuterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested.local.LocalOuterV1" />
+    <configuration name="LocalOuterV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nested.local.LocalOuterV3" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
@@ -229,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalOuterV3" />
         <item itemvalue="Application.LocalOuterV1" />
         <item itemvalue="Application.ShadowingMain" />
         <item itemvalue="Application.nested.inner.ex2.CarMain" />
         <item itemvalue="Application.CarMain" />
-        <item itemvalue="Application.InnterOuterMain" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +285,7 @@
       <workItem from="1785847449985" duration="555000" />
       <workItem from="1785931094147" duration="1664000" />
       <workItem from="1786020168545" duration="542000" />
+      <workItem from="1786020989142" duration="901000" />
     </task>
     <servers />
   </component>
