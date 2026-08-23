@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="" />
+    <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/MyUnCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/UncheckedCatchedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/UncheckedThrowdMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +138,8 @@
     "Application.TestZone.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
+    "Application.UncheckedCatchedMain.executor": "Run",
+    "Application.UncheckedThrowdMain.executor": "Run",
     "Application.WrapperClassMain.executor": "Run",
     "Application.WrapperTest1.executor": "Run",
     "Application.WrapperTest3.executor": "Run",
@@ -172,7 +181,7 @@
       <recent name="nested.local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckedThrowMain">
+  <component name="RunManager" selected="Application.UncheckedThrowdMain">
     <configuration name="CheckedCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.basic.checked.CheckedCatchMain" />
       <module name="java-mid1" />
@@ -199,32 +208,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nested.test.ex1.LibraryMain" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nested.test.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ex0.Main0" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.ex0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.ex1.Main1" />
       <module name="java-mid1" />
@@ -238,13 +221,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UncheckedCatchedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.basic.unCheckedException.UncheckedCatchedMain" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.basic.unCheckedException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UncheckedThrowdMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.basic.unCheckedException.UncheckedThrowdMain" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.basic.unCheckedException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UncheckedThrowdMain" />
+        <item itemvalue="Application.UncheckedCatchedMain" />
         <item itemvalue="Application.CheckedThrowMain" />
         <item itemvalue="Application.CheckedCatchMain" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main0" />
-        <item itemvalue="Application.LibraryMain" />
       </list>
     </recent_temporary>
   </component>
@@ -308,6 +317,7 @@
       <workItem from="1787144769521" duration="581000" />
       <workItem from="1787228515931" duration="20000" />
       <workItem from="1787313093746" duration="1887000" />
+      <workItem from="1787465833088" duration="2254000" />
     </task>
     <servers />
   </component>
