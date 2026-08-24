@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/MyUnCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/UncheckedCatchedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unCheckedException/UncheckedThrowdMain.java" afterDir="false" />
+    <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="언체크예외">
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;magracarta&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/magracarta/java_study.git&quot;,
+    &quot;accountId&quot;: &quot;db3081e7-940d-4a9c-8025-448272e796d2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -89,6 +102,7 @@
     "Application.Main.executor": "Run",
     "Application.Main0.executor": "Run",
     "Application.Main1.executor": "Run",
+    "Application.Main2.executor": "Run",
     "Application.MathMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
@@ -174,14 +188,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exception.ex2" />
       <recent name="exception.ex1" />
       <recent name="nested.test" />
       <recent name="nested.anonymous.ex" />
       <recent name="nested.anonymous" />
-      <recent name="nested.local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UncheckedThrowdMain">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="CheckedCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.basic.checked.CheckedCatchMain" />
       <module name="java-mid1" />
@@ -208,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ex1.Main1" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ex2.Main2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.ex1.*" />
+          <option name="PATTERN" value="exception.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.UncheckedThrowdMain" />
         <item itemvalue="Application.UncheckedCatchedMain" />
         <item itemvalue="Application.CheckedThrowMain" />
         <item itemvalue="Application.CheckedCatchMain" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -317,12 +331,26 @@
       <workItem from="1787144769521" duration="581000" />
       <workItem from="1787228515931" duration="20000" />
       <workItem from="1787313093746" duration="1887000" />
-      <workItem from="1787465833088" duration="2254000" />
+      <workItem from="1787465833088" duration="2648000" />
+      <workItem from="1787574429160" duration="1626000" />
     </task>
+    <task id="LOCAL-00001" summary="언체크예외">
+      <option name="closed" value="true" />
+      <created>1787485369292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787485369292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="언체크예외" />
+    <option name="LAST_COMMIT_MESSAGE" value="언체크예외" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
