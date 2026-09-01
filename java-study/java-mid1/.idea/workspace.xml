@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="언체크예외">
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkServiceV3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/ConnectExceptionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/NetworkClientExceptionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/SendExceptionV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/ex2/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex2/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/ex2/NetworkClientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +106,8 @@
     "Application.Main.executor": "Run",
     "Application.Main0.executor": "Run",
     "Application.Main1.executor": "Run",
-    "Application.Main2.executor": "Run",
+    "Application.Main2.executor": "Debug",
+    "Application.Main3.executor": "Run",
     "Application.MathMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
@@ -188,27 +193,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exception.ex3" />
       <recent name="exception.ex2" />
       <recent name="exception.ex1" />
       <recent name="nested.test" />
       <recent name="nested.anonymous.ex" />
-      <recent name="nested.anonymous" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="CheckedCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.basic.checked.CheckedCatchMain" />
-      <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.basic.checked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="CheckedThrowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.basic.checked.CheckedThrowMain" />
       <module name="java-mid1" />
@@ -228,6 +220,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exception.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ex3.Main3" />
+      <module name="java-mid1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.UncheckedThrowdMain" />
         <item itemvalue="Application.UncheckedCatchedMain" />
         <item itemvalue="Application.CheckedThrowMain" />
-        <item itemvalue="Application.CheckedCatchMain" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +338,7 @@
       <workItem from="1787313093746" duration="1887000" />
       <workItem from="1787465833088" duration="2648000" />
       <workItem from="1787574429160" duration="1626000" />
+      <workItem from="1788264421512" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="언체크예외">
       <option name="closed" value="true" />
