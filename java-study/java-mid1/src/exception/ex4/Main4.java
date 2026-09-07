@@ -1,14 +1,13 @@
-package exception.ex5;
+package exception.ex4;
 
 
-import exception.ex5.exception.ConnectExceptionV4;
-import exception.ex5.exception.SendExceptionV4;
+import exception.ex4.exception.SendExceptionV4;
 
 import java.util.Scanner;
 
 public class Main4 {
     public static void main(String[] args) {
-        NetworkServiceV4 networkService = new NetworkServiceV4();
+        NetworkServiceV5 networkService = new NetworkServiceV5();
 
         Scanner scanner = new Scanner(System.in);
         while (true){
@@ -34,7 +33,7 @@ public class Main4 {
         System.out.println("사용자 메시지 : 죄송합니다. 알수 없는 문제가 발생했습니다.");
         System.out.println("===개발자용 디버깅 메시지===");
         e.printStackTrace(System.out);
-        e.printStackTrace();
+//        e.printStackTrace();
         //필요하면 예외별로 별도의 추가 처리 가능
         if(e instanceof SendExceptionV4 sendEx){
             System.out.println("[전송오류] 전송데이터 : " +sendEx.getMessage() );

@@ -1,8 +1,5 @@
-package exception.ex5;
+package exception.ex4;
 
-
-import exception.ex5.exception.ConnectExceptionV4;
-import exception.ex5.exception.NetworkClientExceptionV4;
 
 public class NetworkServiceV4 {
     public void sendMessage(String data) {

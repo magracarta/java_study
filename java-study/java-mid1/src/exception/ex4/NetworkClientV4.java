@@ -1,8 +1,8 @@
-package exception.ex5;
+package exception.ex4;
 
 
-import exception.ex5.exception.ConnectExceptionV4;
-import exception.ex5.exception.SendExceptionV4;
+import exception.ex4.exception.ConnectExceptionV4;
+import exception.ex4.exception.SendExceptionV4;
 
 public class NetworkClientV4 {
     private final String address;
