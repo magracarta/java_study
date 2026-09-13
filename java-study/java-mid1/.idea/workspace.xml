@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ea2908-7881-40da-a4ad-1ab05d0669b3" name="Changes" comment="언체크예외">
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/ex5/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex4/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/ex5/NetworkClientV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/ex5/NetworkServiceV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/ex5/exception/ConnectExceptionV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex4/exception/ConnectExceptionV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/ex5/exception/NetworkClientExceptionV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex4/exception/NetworkClientExceptionV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/ex5/exception/SendExceptionV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/ex4/exception/SendExceptionV4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +333,8 @@
       <workItem from="1788354523413" duration="304000" />
       <workItem from="1788440787394" duration="1828000" />
       <workItem from="1788691767665" duration="3182000" />
-      <workItem from="1788783048973" duration="1393000" />
+      <workItem from="1788783048973" duration="1700000" />
+      <workItem from="1789305361007" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="언체크예외">
       <option name="closed" value="true" />
