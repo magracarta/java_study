@@ -1,0 +1,32 @@
+package collection.list.test.ex1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ListEx2 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        List<Integer> number = new ArrayList<>();
+
+        System.out.println("n개의 정수를 입력하세요. (종료 0)");
+        while (true) {
+            int i = sc.nextInt();
+            if(i==0) {
+                break;
+            }
+            number.add(i);
+        }
+
+        System.out.println("출력");
+        for (int i = 0; i < number.size(); i++) {
+            System.out.print(number.get(i));
+            if(i<number.size()-1) {
+                System.out.print(",");
+            }
+        }
+
+
+    }
+}
