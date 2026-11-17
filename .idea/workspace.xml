@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5545720c-0dc8-43f1-9858-0fcc818b31cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/01-lecture-source/chap01-literal-and-vairable-lecture-source/chap01-literal-and-vairable-lecture-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-lecture-source/chap02-operator-lecture-source/chap02-operator-lecture-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-lecture-source/chap03-method-and-api-lecture-source/chap03-method-and-api-lecture-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-lecture-source/chap05-array-lecture-source/chap05-array-lecture-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-lecture-source/chap06-class-and-object-lecture-source/chap06-class-and-object-lecture-source.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_JAVA_pratice/chap01-literal-and-variable-practice/chap01-literal-and-variable-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_JAVA_pratice/chap02-operator-practice/chap02-operator-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_JAVA_pratice/chap03-method-and-api-practice/chap03-method-and-api-practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_JAVA_pratice/constructor-study/constructor-study.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="5545720c-0dc8-43f1-9858-0fcc818b31cb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +10,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "magracarta"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/magracarta/java_study.git",
+    "accountId": "a336ca7e-be74-445b-a092-cf7845dab607"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eS0m24v3VCaq1E6HkKDdYm9iRk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,9 +34,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
+    "git.auto.fetch.suggestion.counter": "1",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JAVA_study/02_JAVA_pratice/Dynamic Beat",
+    "last_opened_file_path": "/Users/kimminju/IdeaProjects/java_study",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -42,7 +47,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-b3785831" />
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
       </set>
     </attachedChunks>
   </component>
@@ -60,5 +65,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
